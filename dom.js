@@ -45,5 +45,11 @@ items[4].classList.add("list-group-item");
 
 const listItem = document.querySelectorAll(".list-group-item");
 console.log(listItem);
+for(let i in listItem){
+    if (i % 2 == 0){
+        listItem[i].style.backgroundColor = "green";
+        listItem[i].style.color = "white";
+    }
+}
 listItem[1].style.color = "green";
 listItem[2].style.visibility = "hidden";
