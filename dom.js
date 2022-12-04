@@ -32,6 +32,12 @@ list[2].style.backgroundColor = "green";
 list[2].style.color = "white";
 
 
+
 for(let ele of list){
     ele.style.fontWeight = "bold";
 }
+
+const items = document.getElementsByTagName("li");
+items[4].style.fontWeight = "bold";
+items[4].style.listStyle = "none";
+items[4].classList.add("list-group-item");
