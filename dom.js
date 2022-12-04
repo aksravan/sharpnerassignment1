@@ -41,3 +41,9 @@ const items = document.getElementsByTagName("li");
 items[4].style.fontWeight = "bold";
 items[4].style.listStyle = "none";
 items[4].classList.add("list-group-item");
+
+
+const listItem = document.querySelectorAll(".list-group-item");
+console.log(listItem);
+listItem[1].style.color = "green";
+listItem[2].style.visibility = "hidden";
