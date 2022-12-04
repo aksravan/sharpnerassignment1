@@ -24,3 +24,14 @@ const title = document.getElementsByClassName("title");
 console.log(title);
 title[0].style.fontWeight = "bold";
 title[0].style.color = "green";
+
+
+const list = document.getElementsByClassName("list-group-item");
+console.log(list);
+list[2].style.backgroundColor = "green";
+list[2].style.color = "white";
+
+
+for(let ele of list){
+    ele.style.fontWeight = "bold";
+}
